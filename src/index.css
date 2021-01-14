@@ -12,14 +12,31 @@ body {
   align-items: center;
   justify-content: space-around;
   flex: 1 1 auto;
-  min-width: 25%;
+  min-width: fit-content;
+  max-width: 30%;
   margin: 10px 10px;
   border: 1px gray solid;
   border-radius: 10px;
+  font-size: 20px;
 }
 
 .pokedex {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin: 10px 10px;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  margin: 30px 10px;
+  font-size: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
